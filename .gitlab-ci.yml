@@ -1,5 +1,5 @@
 variables:
-  NODE_VERSION: "4.5.0"
+  NODE_VERSION: "4.4.7"
 
 before_script:
   - docker pull docker.savicontrols.local/node-build:${NODE_VERSION}
