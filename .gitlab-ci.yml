@@ -12,4 +12,4 @@ cache:
 
 test-build:
   script:
-   - CI=true npm test
+   - CI=true npm run test
