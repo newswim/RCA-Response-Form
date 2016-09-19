@@ -33,3 +33,8 @@ Next steps
 ### Test Mode
 
 Just use `npm run test`, it will start JSDom in watch-mode, with an interactive CLI.
+
+### Running a CI build
+
+There's currently a bug with RCA that will give an install error related to `lru-cache`
+this has already been fixed and will be included in the next release.

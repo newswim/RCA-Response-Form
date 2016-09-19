@@ -8,10 +8,8 @@ before_script:
 # http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
   paths:
-  - cedia_followup/node_modules/
+  - node_modules
 
 test-build:
   script:
-   - cd cedia_followup
-   - npm install
    - npm test
