@@ -1,5 +1,5 @@
 {
-  "name": "cedia_followup",
+  "name": "RCA-Response-Form",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -17,5 +17,6 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "homepage": "http://newswim.github.io/RCA-Response-Form"
 }
