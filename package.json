@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.4.3"
+    "react-scripts": "0.4.3",
+    "@kadira/storybook": "^2.5.2"
   },
   "dependencies": {
     "material-ui": "0.15.4",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
