@@ -1,11 +1,15 @@
 Some packages which might be useful for this form:
 
-- [React International Telephone Input](npm install --save react-intl-tel-input)
 - [React-Widgets](http://jquense.github.io/react-widgets/)
 - [React Ultimate](https://github.com/Paqmind/react-ultimate)
 - [Redux Form](http://redux-form.com/) - a HOC that plays well with [Material UI](http://redux-form.com/6.0.5/examples/material-ui/) and [CF UI](https://cloudflare.github.io/cf-ui/)
 - [Material UI](http://www.material-ui.com/)
 - [Storybook add-on for Material UI](https://github.com/sm-react/storybook-addon-material-ui)
+
+Components
+
+- [React Toggle Display](https://github.com/ccnokes/react-toggle-display)
+- [React International Telephone Input](https://github.com/patw0929/react-intl-tel-input)
 
 
 
