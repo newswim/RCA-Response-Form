@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import ToggleSwitch from './BaseToggle'
-import BaseInput from './BaseInput'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import {indigo500, indigo700, redA200} from 'material-ui/styles/colors'
 //import logo from './logo.svg'
+import Questions from './Questions'
+import FavoriteFeatures from './FavoriteFeatures'
+import OtherProviders from './OtherProviders'
 import './App.css'
 
 // Needed for onTouchTap
@@ -30,16 +31,11 @@ class App extends Component {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
       <div className="App">
-        {/* <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
-
-        <ToggleSwitch />
-        <BaseInput />
+        <div className="App-intro">Stuff inside of here is centered</div>
+        <br />
+        <FavoriteFeatures />
+        <OtherProviders />
+        <Questions />
 
       </div>
       </MuiThemeProvider>
