@@ -4,9 +4,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import {indigo500, indigo700, redA200} from 'material-ui/styles/colors'
 //import logo from './logo.svg'
-import Questions from './Questions'
-import FavoriteFeatures from './FavoriteFeatures'
-import OtherProviders from './OtherProviders'
+
+import CardLayout from './Layout'
+import Footer from './Footer'
 import './App.css'
 
 // Needed for onTouchTap
@@ -30,13 +30,11 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-      <div className="App">
-        <div className="App-intro">Stuff inside of here is centered</div>
-        <br />
-        <FavoriteFeatures />
-        <OtherProviders />
-        <Questions />
-
+      <div>
+        <div className="App">
+          <CardLayout />
+        </div>
+        <Footer />
       </div>
       </MuiThemeProvider>
     )

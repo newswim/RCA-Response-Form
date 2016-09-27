@@ -25,7 +25,8 @@ export default class OtherProviders extends React.Component {
       <SelectField
         value={this.state.value}
         onChange={this.handleChange}
-        autoWidth={true}
+        // autoWidth={true}
+        fullWidth={true}
         style={styles.width}
       >
         <MenuItem value={'title'} primaryText={Config.serviceProviders[0]} />
